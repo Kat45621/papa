@@ -1,0 +1,55 @@
+body {
+    background-image:url(fondopapi.jpg);
+    backface-visibility: hidden;
+    background-size:cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 6px double #4b350d;
+    padding: 15px 15px 15px 15px;
+}
+@font-face{
+    font-family: "Secret Nature";
+    src:url(secretnature.ttf);
+    font-family: "Letters For Learners";
+    src:url(letters_for_learners.ttf);
+    font-family: "Lemon Friday";
+    src:url(lemon_friday);
+    font-family: "Please write me a song";
+    src:url(please_write_me_a_song.ttf);
+}
+
+h1{
+    font-family:"Secret Nature", sans-serif;
+    font-size:50px;
+    font-weight: lighter;
+    color: #083505;
+}
+
+h3{
+    font-family:"Letters For Learners";
+    font-size: 300%;
+    font-weight: bold;
+    color: #241001;
+}
+
+h2{
+    font-family:"Lemon Friday";
+    font-size: 300%;
+    font-weight: bold;
+    color: #68480c;
+}
+
+p{
+    font-family:"Please write me a song";
+    font-size: x-large;
+    font-weight: bold;
+    color: #251903;
+}
+
+
+blockquote{
+    font-family:"Letters For Learners";
+    font-size: 150%;
+    font-weight: large;
+    color: #1f0e01;
+}
